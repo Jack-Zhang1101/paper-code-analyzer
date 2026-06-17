@@ -1,0 +1,15 @@
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Python 缓存（若以后加脚本）
+__pycache__/
+*.py[cod]
+
+# 运行产物（不应进仓库）
+paper-code-analysis.md
+paper-code-analysis/
