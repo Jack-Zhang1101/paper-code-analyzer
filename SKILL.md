@@ -1,6 +1,10 @@
 ---
 name: paper-code-analyzer
-description: Use when the user gives a research paper (PDF/arXiv) together with its code repository and wants to understand the work from both the method and implementation sides — 提取论文核心创新, 梳理公式与算法流程, 定位代码中与论文对应的实现 (paper↔code mapping), 抽取核心模块成可复用/即插即用形式, 标记潜在工程风险, 给出改进方向. INTERACTIVE by design: it analyzes, then discusses paper↔code with the user, and only writes a Markdown report when the user explicitly asks ("生成md"/"出报告"). Static analysis only — never runs or modifies the user's code. Triggers on "分析论文代码", "论文代码映射", "paper code analysis", "读懂这篇论文的代码", "把核心模块抽出来", or when a paper PDF and a code folder are provided together.
+description: >-
+  Use when the user provides a research paper and its code repository for paper-code
+  mapping, implementation analysis, reusable module extraction, static engineering
+  risk review, or asks "分析论文代码", "论文代码映射", "paper code analysis",
+  "读懂这篇论文的代码", or "把核心模块抽出来".
 version: 2.1.0
 ---
 
